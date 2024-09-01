@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Kakiri Ex-Players Academy</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/bootstrap/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    /* Custom Styles for the form */
+    .form-control {
+      border: 2px solid green;
+      border-radius: 8px;
+      padding: 10px;
+    }
+
+    .form-control:focus {
+      box-shadow: none;
+      border-color: #28a745;
+    }
+
+    .btn-primary {
+      background-color: #007bff;
+      border-color: #007bff;
+      padding: 10px 20px;
+      border-radius: 8px;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+
+    .btn-primary:hover {
+      background-color: #0056b3;
+      border-color: #0056b3;
+    }
+
+    .form-group textarea {
+      resize: none;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="site-wrap">
+
+    <!-- Header -->
+    <header class="site-navbar py-4" role="banner">
+      <div class="container">
+        <div class="d-flex align-items-center">
+          <div class="site-logo">
+            <a href="index.html">
+              <img src="images/logo.png" alt="Logo">
+            </a>
+          </div>
+          <div class="ml-auto">
+            <nav class="site-navigation position-relative text-right" role="navigation">
+              <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="matches.html" class="nav-link">Matches</a></li>
+                <li><a href="players.html" class="nav-link">Players</a></li>
+                <li><a href="blog.html" class="nav-link">Gallery</a></li>
+                <li class="active"><a href="contact.html" class="btn btn-success">Donate</a></li>
+              </ul>
+            </nav>
+            <a href="#" class="d-inline-block d-lg-none site-menu-toggle js-menu-toggle text-black float-right text-white">
+              <span class="icon-menu h3 text-white"></span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <div class="hero overlay" style="background-image: url('images/bg_3.jpg');">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-9 mx-auto text-center">
+            <h1 class="text-white">Contact Us Now to Join the Journey</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact Form Section -->
+    <div class="site-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-7">
+            <form action="/submit_contact_form" method="post">
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Name" required>
+              </div>
+              <div class="form-group">
+                <input type="email" class="form-control" placeholder="Email" required>
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Subject" required>
+              </div>
+              <div class="form-group">
+                <textarea class="form-control" cols="30" rows="10" placeholder="Write something..." required></textarea>
+              </div>
+              <div class="form-group">
+                <input type="submit" class="btn btn-primary py-3 px-5" value="Send Message">
+              </div>
+            </form>
+          </div>
+          <div class="col-lg-4 ml-auto">
+            <ul class="list-unstyled">
+              <li class="mb-2">
+                <strong class="text-white d-block">Address</strong>
+                Kakiri Town Council, Along Hoima Rd. <br> Wakiso
+              </li>
+              <li class="mb-2">
+                <strong class="text-white d-block">Email</strong>
+                <a href="mailto:info@kakiriacademy.co">info@kakiriacademy.co</a>
+              </li>
+              <li class="mb-2">
+                <strong class="text-white d-block">Phone</strong>
+                <a href="tel:+2563456789012">+256 345 6789 012</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="footer-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3">
+            <div class="widget mb-3">
+              <h3>News</h3>
+              <ul class="list-unstyled links">
+                <li><a href="#">All</a></li>
+                <li><a href="#">Club News</a></li>
+                <li><a href="#">Media Center</a></li>
+                <li><a href="#">Video</a></li>
+                <li><a href="#">RSS</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="widget mb-3">
+              <h3>Tickets</h3>
+              <ul class="list-unstyled links">
+                <li><a href="#">Online Ticket</a></li>
+                <li><a href="#">Payment and Prices</a></li>
+                <li><a href="#">Contact &amp; Booking</a></li>
+                <li><a href="#">Tickets</a></li>
+                <li><a href="#">Coupon</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="widget mb-3">
+              <h3>Matches</h3>
+              <ul class="list-unstyled links">
+                <li><a href="#">Standings</a></li>
+                <li><a href="#">World Cup</a></li>
+                <li><a href="#">La Lega</a></li>
+                <li><a href="#">Hyper Cup</a></li>
+                <li><a href="#">World League</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="widget mb-3">
+              <h3>Social</h3>
+              <ul class="list-unstyled links">
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">Youtube</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="row text-center">
+          <div class="col-md-12">
+            <div class=" pt-5">
+              <p>&copy; <script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+  </div>
+
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
